@@ -2,11 +2,35 @@ import { Assets, sound } from "@drincs/pixi-vn";
 import manifest from "../assets/manifest";
 import { AUDIO_BUNDLE_NAME, MAIN_MENU_ROUTE } from "../constans";
 
+import map from "../assets/images/map.png";
+import road from "../assets/images/road.png";
+import title from "../assets/images/title.png";
+
 import img00start from "../assets/images/img-00-start.png";
 import img01trunk from "../assets/images/img-01-trunk.png";
 import img02polaroid from "../assets/images/img-02-polaroid.png";
 import img03polaroidcloseup from "../assets/images/img-03-polaroid-closeup.png";
+import img08diner from "../assets/images/img-08-diner.png";
+import img11dinerphoto from "../assets/images/img-11-diner-photo.png";
+import img14moteln1 from "../assets/images/img-14-motel-n1.png";
 
+import p11diner from "../assets/images/p-11-diner.png";
+
+// placeholder
+Assets.add({
+    alias: "title",
+    src: title,
+});
+Assets.add({
+    alias: "map",
+    src: map,
+});
+Assets.add({
+    alias: "road",
+    src: road,
+});
+
+// background images
 Assets.add({
     alias: "img-00-start",
     src: img00start,
@@ -22,6 +46,24 @@ Assets.add({
 Assets.add({
     alias: "img-03-polaroid-closeup",
     src: img03polaroidcloseup,
+});
+Assets.add({
+    alias: "img-08-diner",
+    src: img08diner,
+});
+Assets.add({
+    alias: "img-11-diner-photo",
+    src: img11dinerphoto,
+});
+Assets.add({
+    alias: "img-14-motel-n1",
+    src: img14moteln1,
+});
+
+//polaroids
+Assets.add({
+    alias: "p-11-diner",
+    src: p11diner,
 });
 
 /**
