@@ -27,7 +27,7 @@ export default function MainMenu() {
 
     useEffect(() => {
         editHideInterface(false);
-        let bg = new ImageSprite({}, "background_main_menu");
+        let bg = new ImageSprite({}, "img-02-polaroid"); // main menu image
         bg.load();
         let layer = canvas.getLayer(CANVAS_UI_LAYER_NAME);
         if (layer) {

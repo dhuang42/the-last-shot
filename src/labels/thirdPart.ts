@@ -1,9 +1,9 @@
 import { narration, newCloseChoiceOption, newLabel, showImage } from "@drincs/pixi-vn";
 
-const secondPart = newLabel("second_part", [
+const thirdPart = newLabel("third_part", [
     async () => {
-        await showImage("bg", "img-02-polaroid");
-        narration.dialogue = `360 noscope`;
+        await showImage("bg", "img-03-polaroid-closeup");
+        narration.dialogue = `420 blaze it`;
     },
 
     async () => {
@@ -1093,4 +1093,4 @@ const secondPart = newLabel("second_part", [
 
     */
 ]);
-export default secondPart;
+export default thirdPart;

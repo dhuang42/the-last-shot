@@ -27,8 +27,8 @@ if (!body) {
 
 Game.init(body, {
     id: HTML_CANVAS_LAYER_NAME,
-    height: 1080,
-    width: 1920,
+    height: 1080, // canvas height
+    width: 1620, // canvas width
     backgroundColor: "#303030",
     resizeMode: "contain",
 }).then(() => {
